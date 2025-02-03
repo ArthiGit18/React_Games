@@ -27,6 +27,7 @@ const Hero = () => {
                     <p>Get ready for an exciting adventure of fun and challenges.</p>
                     <button onClick={() => navigate('/bubble')}>Zen Bubble Game</button>
                     <button onClick={() => navigate('/puzzle')}>Puzzle Game</button>
+                    <button onClick={() => navigate('/snake')}>Snake and Dots Game</button>
                 </div>
             )}
         </div>

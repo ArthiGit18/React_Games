@@ -68,3 +68,64 @@ h2{
     font-size: 30px;
   }
 }
+
+/* SnakeGame.css */
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.game-over {
+  text-align: center;
+}
+
+.game-over h2 {
+  font-size: 30px;
+  color: red;
+}
+
+.game-over button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.game-over button:hover {
+  background-color: #45a049;
+}
+
+.grid {
+  display: grid;
+  gap: 1px;
+  background-color: #ddd;
+}
+
+.cell {
+  background-color: white;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s;
+}
+
+.snake {
+  background-color: #4caf50;
+}
+
+.food {
+  background-color: red;
+}
