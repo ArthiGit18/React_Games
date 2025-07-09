@@ -39,6 +39,7 @@ const Hero = () => {
                     <button onClick={() => handleNavigation('/puzzle')}>Puzzle Game</button>
                     <button onClick={() => handleNavigation('/snake')}>Snake and Dots Game</button>
                     <button onClick={() => handleNavigation('/card-game')}>Card Game</button>
+                    <button onClick={() => handleNavigation('/simon-game')}>Simon Game</button>
                 </div>
             )}
         </div>
