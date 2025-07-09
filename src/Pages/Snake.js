@@ -115,10 +115,11 @@ const SnakeGame = () => {
   return (
     <div className="game-container">
       <h2>Snake Game</h2>
+      <p>Use Keyboard Buttons</p>
       {isGameOver && (
         <div className="game-over">
-          <h1>Game Over!</h1>
-          <p>Use Keyboard Buttons</p>
+          <h2>Game Over!</h2>
+         
           <button onClick={resetGame}>Restart</button>
         </div>
       )}

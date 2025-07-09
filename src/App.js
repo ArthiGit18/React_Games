@@ -3,20 +3,22 @@ import { Main } from './Components/Main';
 import ZenBubbleGame from './Pages/Bubble';
 import PuzzleGameSection from './Pages/Puzzle';
 import SnakeGame from './Pages/Snake';
+import CardGame from './Pages/CardGame';
 
 
 
 function App() {
   return (
-   <Router>
-    <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="/bubble" element={<ZenBubbleGame />} />
-      <Route path="/puzzle" element={<PuzzleGameSection />} />
-      <Route path="/snake" element={<SnakeGame />} />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/bubble" element={<ZenBubbleGame />} />
+        <Route path="/puzzle" element={<PuzzleGameSection />} />
+        <Route path="/snake" element={<SnakeGame />} />
+        <Route path="/card-game" element={<CardGame />} />
 
-    </Routes>
-   </Router>
+      </Routes>
+    </Router>
   );
 }
 
